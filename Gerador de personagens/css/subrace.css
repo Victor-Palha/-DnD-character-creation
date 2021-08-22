@@ -1,0 +1,20 @@
+.subRace{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: auto;
+}
+.subRace img{
+    opacity: 0.5;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.subRace img:hover{
+    opacity: 1;
+}
+
+.textInfo{
+    text-align: center;
+    margin: 10px;
+}

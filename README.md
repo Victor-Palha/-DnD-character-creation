@@ -11,5 +11,4 @@ Um site com o objetivo de criar personagens para o jogo de Dungeons and Dragons 
             ITENS
             MAGIAS -> API
               FIM.
-Estou usando como base esse pequeno algoritmo que eu criei para me guiar durante todo o processo. No momento atual as "Raças" e "Sub-Raças" já estão prontas.
-API: http://www.dnd5eapi.co/
+Estou usando como base esse pequeno algoritmo que eu criei para me guiar durante todo o processo. No momento atual as "Raças", "Sub-Raças" e "Antecedentes" já estão prontas.

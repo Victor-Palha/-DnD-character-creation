@@ -1,0 +1,57 @@
+.dragon-breath ul{
+    display: flex;
+    list-style: none;
+    width: 70%;
+    margin: 0px auto;
+    text-align: center; 
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.dragon-breath li{
+    margin: 5px;
+}
+.dragonType{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.set{
+    margin: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px black;
+
+}
+.set input{
+    cursor: pointer;
+}
+.submitDragon{
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+}
+.submitDragon input{
+    padding: 10px;
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(99, 99, 212);
+    opacity: 0.5;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.submitDragon input:hover{
+    opacity: 1;
+    box-shadow: 0px 2px 5px black;
+}
+@media screen and (max-width:500px){
+    .dragonType{
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width: 740px){
+    .dragon-breath ul{
+        width: 100%;
+    }
+}

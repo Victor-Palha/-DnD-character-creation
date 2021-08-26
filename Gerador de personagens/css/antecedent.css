@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+}
+.info-antecedent{
+    text-align: center;
+}
+.antecedent{
+
+    margin: 10px auto;
+}
+/*Form*/
+form{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*escolha do antecedente*/
+.choiceAnte{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 5px;
+}
+/*Drop Down infos*/
+.moreInfo{
+    cursor: pointer;
+}
+.info{
+    display: none;
+    margin: 20px;
+}
+/*Submit os antecedentes*/
+.submitAnte{
+    text-align: center;
+    margin: 20px;
+}
+.submitAnte input{
+    padding: 10px;
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(99, 99, 212);
+    opacity: 0.5;
+    transition: 0.5s;
+    cursor: pointer;
+    text-align: center;
+}
+.submitAnte input:hover{
+    opacity: 1;
+    box-shadow: 0px 2px 5px black;
+}
